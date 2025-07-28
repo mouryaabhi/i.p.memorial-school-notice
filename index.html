@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="School Website for Notices and Updates">
+    <title>School Notices</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .notice {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .notice h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .image-gallery {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .image-gallery img {
+            width: 30%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our School</h1>
+        <p>Stay updated with the latest notices and events</p>
+    </header>
+
+    <nav>
+        <a href="#notices">Notices</a>
+        <a href="#gallery">Image Gallery</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <section id="notices">
+            <p>Latest Notices<p>
+
+            <!-- Notice 1 -->
+            <div class="notice">
+                <p>Examination Schedule<p>
+                <p>Dear Students, the examination schedule for the upcoming semester is now available. Please check the notice board for the details.</p>
+            </div>
+
+            <!-- Notice 2 -->
+            <div class="notice">
+                <p>School Annual Day</p>
+                <p>The Annual Day will be held on 25th December. All students are requested to participate and make it a grand success.</p>
+            </div>
+
+            <!-- Add more notices here -->
+        </section>
+
+        <section id="gallery">
+            <p>School Events Gallery</p>
+            <div class="image-gallery">
+                <!-- Image 1 -->
+                <img>="school-event1.jpg" alt="Event 1">
+                <!-- Image 2 -->
+                <img>="school-event2.jpg" alt="Event 2">
+                <!-- Image 3 -->
+                <img>="school-event3.jpg" alt="Event 3">
+            </div>
+        </section>
+
+        <section id="contact">
+            <p>Contact Us</p>
+            <p>If you have any questions, feel free to <a href="mailto:school@example.com">email us</a>.</p>
+        </section>
+    </div>
+
+    <footer style="background-color: #333; color: white; text-align: center; padding: 10px;">
+        <p>&copy; 2025 Our School. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
